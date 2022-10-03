@@ -8,10 +8,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
+    <!-- Navigation -->
+    <nav class="navigation container">
+        <div class="nav-brand">Triangle-Quiz</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="">Triangle-Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link"href="projects.html">Projects</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Blogs</a>
+            </li>
+
+            <li class="list-item-inline">
+                <a class="link" href="blogs.html">Area</a>
+            </li>
+            
+        </ul>
+
+    </nav>
+
+    <div class="container1">
         <h1>FUN-WITH-TRAINGLE</h1>
+        <label for="angle1">Angle1</label>
+        <input class="all-angleinputs"/>
+        
+        <label for="angle2">Angle2</label>
+        <input class="all-angleinputs"/>
+
+        <label for="angle3">Angle3</label>
+        <input class="all-angleinputs"/>
+
+        <button id="submitbtn">ISTRIANGLE</button>
+        <h2 id="outputdiv"></h2>
         
     </div>
+
+
+
     <script src="App.js"></script>
 </body>
 </html>
