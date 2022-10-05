@@ -14,7 +14,7 @@
         <div class="nav-brand">Triangle-Quiz</div>
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link" href="">IS-Triangle</a>
+                <a class="link" href="index.html">IS-Triangle</a>
             </li>
             <li class="list-item-inline">
                 <a class="link link-active"href="/">Triangle-Quiz</a>
@@ -34,7 +34,7 @@
     </nav>
     <!-- important things to structure the html in the quiz -->
     <div class="container1">
-        <div class="quiz-form">
+        <form class="quiz-container">
             <label>
                 <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
                 <input type="radio" value="45°" name="question1">45°
@@ -48,9 +48,11 @@
                 <input type="radio" value="acute" name="question2">acute
                 <input type="radio" value="right angled" name="question2">right angled
             </label>
-        </div>
-        
+        </form>
+        <button id="Submitans">Submit Answer</button>
+        <h2 id="outputquiz"></h2>
     </div>
+
     <script src="triangleQuiz.js"></script>
 </body>
 </html>
